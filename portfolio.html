@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio with Background Image</title>
+</head>
+<body>
+<style>
+    /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Portfolio Section with Background Image */
+.portfolio-background {
+  background-image: url('https://t4.ftcdn.net/jpg/04/90/33/39/360_F_490333979_EQdf0tNa0W7MdstKjrGwnjQjoxfYP2zO.jpg'); /* 🔁 Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+/* Optional dark overlay */
+.portfolio-background::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+  z-index: 1;
+}
+
+.portfolio-text {
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-text p {
+  font-size: 1.2rem;
+}
+ 
+</style>
+  <section class="portfolio-background">
+    <div class="portfolio-text">
+      <h1>My Portfolio</h1>
+      <p>Explore some of my featured projects below.</p>
+    </div>
+  </section>
+
+</body>
+<p>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paragraph Example</title>
+</head>
+<body>
+
+  <h1>This is a paragraph of text. You can write any content inside this tag, and it will automatically create space before and after the text. The paragraph tag is used to represent a block of text in HTML.</h1>
+
+</body>
+<h1>Front-End Development:
+Expertise in HTML5, CSS3, JavaScript (ES6+), and frameworks like React.js and Bootstrap. I focus on creating responsive, mobile-first designs with a smooth user experience.
+
+Back-End Development:
+Experience with Node.js, Express.js, and Django for creating powerful and efficient back-end services. I also have experience with databases such as MongoDB, MySQL, and PostgreSQL.
+
+Version Control & Collaboration:
+Proficient in Git, GitHub, and GitLab for version control and collaborative development. I thrive in team environments and believe in the power of code reviews and continuous integration.
+
+UI/UX Design:
+Passionate about creating intuitive, user-friendly designs that are both functional and aesthetically pleasing. I use design tools like Figma and Adobe XD to bring concepts to life.
+
+Problem Solving & Debugging:
+A keen eye for detail and problem-solving. I enjoy taking on complex challenges and solving them through clean, efficient code and innovative solutions.
+
+</h1>
+</html>
+</p>
+</html>
+
